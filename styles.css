@@ -1,0 +1,168 @@
+body {
+    background-color: #fefefe;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    font-size: 120%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-left: 10px !important;
+    color: #E63946
+}
+
+/* Dark theme for containers */
+.dark {
+    background-color: #e9ecef; 
+     color: black;
+}
+
+a {
+    font-size: 18px;
+}
+
+
+/* Headings */
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 0px !important;
+    
+}
+
+h2 {
+    font-weight: bold;
+    margin: 20px 80px 20px 10%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+h3 {
+    margin: 20px 80px 20px 10%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+h4 {
+    margin: 20px 80px 20px 10%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+h5 {
+    margin: 20px 80px 20px 10%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.credit {
+    margin-left: 0 !important;
+}
+
+p {
+    margin: 20px 80px 20px 10%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: larger;
+}
+
+.heading-brackets{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.brackets {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+/* Buttons */
+
+a {
+    padding: 0px 10px 0px 10px;
+    margin: 0px 60px 50px 10%; /* FOCUS POINT */
+}
+
+.w3-button {
+    padding: 12.5px 80px 12.5px 80px;
+}
+
+.w3-red {
+    background-color: #E63946 !important;
+}
+
+.w3-hover-red:hover {
+    background-color: #E63946 !important;
+}
+
+.back {
+    margin-left: 10%;
+}
+
+/* Quick links heading */
+.quick-links{
+    font-size: 8px;
+}
+
+/* A-Level Maths Notes Page */
+.alevel-notes-m {
+    height: 500px;
+}
+
+
+
+/* Footer */
+
+.footer-logo {
+    margin-bottom: 0px !important;
+    margin-left: 5%;
+    font-size: 20px;
+
+}
+
+.footer-p {
+    margin-left: 5%;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 15px;
+}
+
+.footer-link {
+    margin-left: 0;
+    padding-left: 0; 
+    font-size: 15px;
+}
+
+/* For Mobile Users */
+
+@media screen and (max-width: 768px) {
+    [class*="row"] {
+        width: 100%
+    }
+    [class*="button"] {
+        width: 80%;
+    }
+    [class*="back"] {
+        width: 182px;
+    }
+    h2 {
+        font-size: 150%;
+        width: 100%;
+        margin-left: 10%;
+    }
+    h1 {
+        font-size: 200%;
+        width: 100%;
+        margin-left: 5.7%;
+        padding-top: 30px;
+    }
+    [class*="credit"] {
+        margin-right: 0;
+        font-size: 30%;
+    }
+
+}

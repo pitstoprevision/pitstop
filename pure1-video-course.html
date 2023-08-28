@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="video-course.css">
+    <script src="https://kit.fontawesome.com/471fdd4009.js" crossorigin="anonymous"></script>
+    <title>A-Level Maths Revision</title>
+</head>
+<body>
+       <!-- Header -->
+       <div>
+        <h1><a class="logo" href="index.html">Pit-Stop Revision</a></h1>
+    </div>
+    <button class="w3-button w3-red w3-round-xlarge back" onclick="history.back()">Back</button>
+    <!-- Title and Quick Links -->
+    <h2>A-Level Maths Worksheets</h2>
+    <h5>Quick Links:</h5>
+    <section>
+        <div class="quick-links">
+            <a class="w3-button w3-black w3-hover-red w3-round-xlarge" href="">A-Level Maths Past Papers</a>
+            <a class="w3-button w3-black w3-hover-red w3-round-xlarge" target="_blank" href="https://www.youtube.com/@pit-stoprevision">A-Level Maths Course</a>
+        </div>
+    </section>
+
+    <!-- Algebraic Expressions -->
+
+    <h2>Algebraic Expressions</h2>
+
+    <button type="button" class="collapsible">Factorising Harder Double Brackets</button>
+    <div class="content">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4UTfLQO9E1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <button type="button" class="collapsible">Surds</button>
+    <div class="content">
+        <iframe src="https://www.youtube.com/embed/acmrUGaQy3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>
+
+</body>
+
+<footer>
+  <p class="footer-logo">Pit-Stop Revision</p>
+  <p class="footer-p">This work is licensed under a <a class="footer-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License.</a> </p>
+</footer>
+</html>
