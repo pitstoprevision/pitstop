@@ -163,6 +163,7 @@ a {
     [class*="credit"] {
         margin-right: 0;
         font-size: 30%;
+        max-width: 80%;
     }
 
 }
