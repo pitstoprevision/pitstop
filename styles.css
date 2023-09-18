@@ -113,7 +113,10 @@ a {
     height: 500px;
 }
 
-
+/* Tips Page */
+.tips {
+    text-decoration: none;
+}
 
 /* Footer */
 
