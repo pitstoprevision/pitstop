@@ -206,7 +206,7 @@ a {
         padding-left: 1px;
         font-size: 90%;
     }
-    [class*="w3-cyan"]{
+    [class*="w3-bar"]{
         width: 100% !important;
     }
 }
