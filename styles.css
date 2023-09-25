@@ -207,6 +207,6 @@ a {
         font-size: 90%;
     }
     [class*="w3-bar"]{
-        width: 100% !important;
+        width: 100%;
     }
 }
