@@ -103,8 +103,18 @@ a {
     margin-left: 10%;
 }
 
-/* Navbar Buttons */
+.w3-blue {
+    background-color: #39E6D9 !important;
+    width: 12%;
+    padding: 8px 0 8px 8px;
+    color: black !important;
+    position: absolute;
+    left: 70%;
+    top: 5%;
 
+}
+
+/* Navbar Buttons */
 .w3-bar-item {
     text-decoration: none !important;
     padding: 0 !important;
@@ -124,6 +134,18 @@ a {
 /* Tips Page */
 .tips {
     text-decoration: none;
+}
+
+/* Shop */
+
+.shop-image {
+    max-width: 30%;
+    margin-left: 10%;
+}
+
+.shop-description{
+    max-width: 30% !important;
+    font-size: medium !important;
 }
 
 /* Footer */
@@ -180,5 +202,11 @@ a {
     [class*="w3-bar-item"]{
         margin-left: 1%;
         font-size: 15px;
+    }
+    [class*="w3-blue"] {
+        max-width: 20%;
+        left: 65%;
+        padding-left: 1px;
+        font-size: 90%;
     }
 }
