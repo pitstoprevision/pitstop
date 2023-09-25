@@ -104,10 +104,8 @@ a {
 }
 
 .w3-cyan {
-    text-align: center;
+    width: 100%;
     margin-left: 0;
-    padding-left: 41%;
-    border: none;
     color: white !important;
 }
 
@@ -132,18 +130,6 @@ a {
 /* Tips Page */
 .tips {
     text-decoration: none;
-}
-
-/* Shop */
-
-.shop-image {
-    max-width: 30%;
-    margin-left: 10%;
-}
-
-.shop-description{
-    max-width: 30% !important;
-    font-size: medium !important;
 }
 
 /* Footer */
@@ -200,11 +186,8 @@ a {
         margin-left: 1%;
         font-size: 15px;
     }
-    [class*="w3-blue"] {
-        max-width: 20%;
-        left: 65%;
-        padding-left: 1px;
-        font-size: 90%;
+    [class*="w3-cyan"] {
+        width: 100%;
     }
     [class*="w3-bar"]{
         width: 100%;
