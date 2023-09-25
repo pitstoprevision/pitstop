@@ -188,11 +188,12 @@ a {
         margin-left: 10%;
     }
     h1 {
-        font-size: 200%;
+        font-size: 170%;
         width: 100%;
         margin-left: 5.7%;
         padding-top: 30px;
     }
+
     [class*="credit"] {
         margin-right: 0;
         font-size: 30%;
